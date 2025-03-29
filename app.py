@@ -47,7 +47,7 @@ user_prompt = st.text_area("Prompt", value="", height=100)
 # Pilihan model
 #model_options = ["google/gemma-3-27b-it", "other-model-1", "other-model-2"]
 #selected_model = st.selectbox("Select Model", model_options)
-selected_model = st.text_input("Model:", "")
+selected_model = st.text_input("Model:", "google/gemma-3-27b-it")
 
 # Tombol Submit
 if st.button("Submit"):
