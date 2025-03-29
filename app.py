@@ -42,7 +42,7 @@ st.title("Groq API Chat Interface")
 system_message = st.text_area("System Message (Optional)", value="", height=100)
 
 # Input untuk User Prompt
-user_prompt = st.text_area("Your Prompt", value="", height=100)
+user_prompt = st.text_area("Prompt", value="", height=100)
 
 # Pilihan model
 model_options = ["google/gemma-3-27b-it", "other-model-1", "other-model-2"]
