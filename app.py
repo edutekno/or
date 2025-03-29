@@ -59,7 +59,7 @@ if st.button("Submit"):
                 # Panggil API Groq
                 response_content = call_groq_api(system_message, user_prompt, selected_model)
                 # Tampilkan hasil
-                st.success("Response received!")
+                #st.success("Response received!")
                 st.write("### Response:")
                 st.write(response_content)
             except Exception as e:
