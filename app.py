@@ -4,8 +4,8 @@ import requests
 # Fungsi untuk memanggil API Groq
 def call_groq_api(system_message, user_prompt, model):
 
-#    groq_api_key=st.secrets["OPENROUTER_APIKEY"]
-    groq_api_key =  OPENROUTER_API_KEY # Ganti dengan API key Groq Anda
+    groq_api_key=st.secrets["OPENROUTER_APIKEY"]
+    #groq_api_key =  OPENROUTER_API_KEY # Ganti dengan API key Groq Anda
     groq_url = "https://openrouter.ai/api/v1/chat/completions"  # Contoh endpoint Groq
 
     # Siapkan array messages
