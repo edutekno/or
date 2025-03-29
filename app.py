@@ -36,7 +36,7 @@ def call_groq_api(system_message, user_prompt, model):
     return content
 
 # Judul aplikasi Streamlit
-st.title("API Interface")
+st.title("AI Playground")
 
 # Input untuk System Message (opsional)
 system_message = st.text_area("System Message (Optional)", value="", height=100)
